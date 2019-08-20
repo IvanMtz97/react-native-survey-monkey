@@ -1,11 +1,9 @@
-
-#if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
+#if __has_include(<React/RCTAssert.h>)
+#import <React/RCTViewManager.h>
 #else
-#import <React/RCTBridgeModule.h>
+#import "RCTViewManager.h"
 #endif
 
-@interface RNSurveyMonkey : NSObject <RCTBridgeModule>
+@interface RNSurveyMonkey : RCTViewManager
 
 @end
-  
