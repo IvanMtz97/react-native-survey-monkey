@@ -63,10 +63,11 @@ public class RNSurveyMonkeyModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void takeSurvey(String hash) {
+  public void takeSurvey(String appName, String hash) {
     try {
       final Activity activity = getCurrentActivity();
       Log.i("SurveymonkeyModule: ", "takeSurvey");
+      surveyMonkey.onStart(activity, appName, SM_REQUEST_CODE, hash);
       surveyMonkey.startSMFeedbackActivityForResult(activity, SM_REQUEST_CODE, hash);
     } catch (Exception e) {
       Log.i("SurveymonkeyModuleError: ", e.toString());

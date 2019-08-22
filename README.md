@@ -47,7 +47,6 @@
 ```javascript
 import RNSurveyMonkey from 'react-native-survey-monkey';
 
-// TODO: What to do with the module?
-RNSurveyMonkey;
+RNSurveyMonkey.takeSurvey("AppName", "Survey ID");
 ```
   
