@@ -1,8 +1,7 @@
-
 import { NativeModules } from 'react-native';
 
 const { RNSurveyMonkey } = NativeModules;
 
 export default {
-    takeSurvey: (appName, hash) =>  RNSurveyMonkey.takeSurvey(appName, hash)
+  takeSurvey: (appName, hash, callback) => RNSurveyMonkey.takeSurvey(appName, hash, callback)
 };
