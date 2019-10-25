@@ -2,11 +2,11 @@
 Pod::Spec.new do |s|
   s.name         = "RNSurveyMonkey"
   s.version      = "1.0.0"
-  s.summary      = "RNSurveyMonkey"
+  s.summary      = "Survey Monkey Bridge for React Native"
+  s.homepage     = "http://https://github.com/a-koka/react-native-survey-monkey/tree/bNirvana"
   s.description  = <<-DESC
                   RNSurveyMonkey
                    DESC
-  s.homepage     = ""
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
@@ -20,5 +20,3 @@ Pod::Spec.new do |s|
   #s.dependency "others"
 
 end
-
-  
