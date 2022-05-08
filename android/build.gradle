@@ -31,7 +31,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
+    implementation 'com.facebook.react:react-native:+'
     implementation 'com.surveymonkey:surveymonkey-android-sdk:2.0.0'
 }
-  
